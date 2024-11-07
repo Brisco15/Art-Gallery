@@ -1,0 +1,174 @@
+#main-container{
+    max-width: 95rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+
+.events-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+
+.event-box{
+    flex: 1;
+    width: 15%;
+    border-left: solid 1px #ccc;
+    padding-left: 0.5rem;
+}
+
+.event-box p{
+    font-weight: bold;
+}
+.author span{
+    color: rgba(4, 1, 1, 0.89);
+    padding-right: 1rem;
+}
+.author a{
+    color:rgba(255, 0, 0, 0.89);
+    text-decoration: none;
+    font-style: italic;
+}
+.author a:hover{
+    text-decoration: underline;
+    transition: 1.5s;
+}
+.event {
+    text-decoration: none;
+    padding-top: 1rem;
+}
+.event:hover{
+    color:rgba(255, 0, 0, 0.89) ;
+    text-decoration: underline;
+    transition: 1.5s;
+
+}
+
+
+.bilder-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.bild-1{
+    
+    width:50%;
+    height: min-content;
+
+}
+
+.bild-1 figure img{
+    width: 30rem;
+    height: 35rem        
+}
+
+.bild-1 figcaption{
+    width: 30rem;
+    text-align:left;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.bild-4{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 45.5rem;
+}
+
+.bild-4 .box{
+    width: 30%;
+    
+
+}
+
+.bild-4 .box figure  img{
+    width: 10rem;
+    height: 8rem;
+}
+
+.bild-4 .box figcaption{
+    width: 8rem;
+    height: 8rem;
+    padding-left: 2.5rem;
+    font-size: x-small;
+    text-align: left;
+}
+
+
+@media screen  and (max-width: 75rem) {
+    .events-container{
+        flex-direction: column;
+    }
+    .event-box{
+        width: 75%;
+        border-bottom: solid 1px #ccc;
+        border-left: none;
+    }
+
+    .bilder-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+
+    .bild-1{
+    
+        width:100%;
+        height: min-content;
+    }
+
+    .bild-1 figure img{
+        width: 8rem;
+        height: 10rem;
+        float: left;      
+    }
+    .bild-1 figcaption{
+        width: 22rem;
+        height: 10rem;
+        padding-bottom: 1rem;
+        padding-left: 1.5rem;
+        align-content:baseline;  
+
+        
+    }
+    
+
+    .bild-4{
+        width: 100%;
+        display: block;
+    }
+
+    .bild-4 .box{
+        display: flex;
+        flex-direction: row;
+        width:90% ; 
+    }
+
+    .bild-4 .box figure  img{
+        width: 5rem;
+        height: 5rem;
+        
+    }
+    
+    .bild-4 .box figcaption{
+        width: 100%;
+        height: 5rem;
+        padding-left: 2rem;
+        align-content:end;
+        font-size:x-small;
+           
+    }
+
+    
+}

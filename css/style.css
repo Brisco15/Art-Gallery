@@ -1,0 +1,71 @@
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: black;
+   
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+div, figure, p{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    max-width: 95rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+.bg-img{
+    background-image: url("../img/big/background1.jpg");
+    min-height: 25rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+
+    
+}
+
+#check, #check-label{
+    display: none;
+}
+
+.bottom-nav{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.bottom-nav nav{
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+}
+.bottom-nav nav a{
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: left;
+    padding: 1rem;
+    
+}
+.bottom-nav nav a:hover{
+    color: rgba(255, 145, 0, 0.897);
+    transition: 1s;
+
+}
+
+footer{
+    position: sticky;
+    margin-top: 1rem;
+    width: 100%;
+    border-top: 2px solid rgba(255, 145, 0, 0.897);
+}
+
+
+

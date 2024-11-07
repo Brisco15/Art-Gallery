@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+
+    
+</head>
+<body>
+    <div id="wrapper">
+
+        <header>
+            <div class="bg-img">
+                <div class="top-nav">
+                    <label for="check" id="check-label">Kunst Gallery</label>
+                    <input type="checkbox" id="check">
+                    <nav>
+                        <div><a  href="index.html">Home</a></div>
+                        <div><a  href="about.html">About</a></div>
+                        <div><a  href="ausstellungen.html">Austellungen</a></div>
+                        <div><a  href="kalendar.html">Veranstaltungs Kalender</a></div>
+                        <div><a  href="karte.html">Anfahrt - Karte</a></div>
+                        
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+        <main>
+            <h1>Nehmen Sie Kontakt</h1>
+            <section class="container-form">
+                <form 
+                action="action_page.php"
+                id="myform" 
+                name="myform"
+                >
+                <div class="name-field">
+                    <label for="vorname"><span>*</span>Vorname:</label>
+                    <input type="text" id="vorname" name="vorname" placeholder="Ihr Vorname..." required>
+
+                </div>
+
+                <div class="name-field">
+                    <label for="nachname"><span>*</span>Nachname:</label>
+                    <input type="text" id="nachname" name="nachname" placeholder="Ihr Nachname..." required>
+
+                </div>
+
+                <div class="name-field">
+                    <label for="email" ><span>*</span>E-Mail:</label>
+                    <input 
+                    id="email" 
+                    type="email" 
+                    name="email" 
+                    placeholder="max@mustermann.com" 
+                    required>
+
+                </div>
+
+                <div class="name-field">
+                    <label for="stadt">Stadt</label>
+                    <select name="stadt" id="stadt">
+                        <option value="nuernberg">Nürnberg</option>
+                        <option value="berlin">Berlin</option>
+                        <option value="muenchen">München</option>
+                        <option value="frankfurt">Frankfurt</option>
+                        <option value="hamburg">Hamburg</option>
+                    </select>
+
+                </div>
+
+                <div class="name-field">
+                    <span class="line1">
+                        Newsletter
+                    </span>
+
+                    
+                        <label for="news-yes">Ja</label>
+                        <input 
+                        type="radio" 
+                        id="news-yes" 
+                        name="newsletter" 
+                        value="yes" >
+
+                        <label for="news-yes">nein</label>
+                        <input 
+                        type="radio" 
+                        id="news-no" 
+                        name="newsletter" 
+                        value="no">
+
+                </div>
+
+                <div class="name-field">
+                    <label for="subject">Kommentar</label>
+                    <textarea id="comment" name="comment" placeholder="Geben Sie etwas ein..." style="height:200px"></textarea>
+
+                </div>
+                <div class="buttons">
+                    <input class="submit" type="submit" value="abschicken">
+                    <input class="reset" type="reset" value="reset">
+                </div>
+                
+
+                    
+                    
+
+                </form>
+            </section>
+
+        </main>
+        <footer>
+            <div class="bottom-nav">
+                <nav>
+                    <div><a class="nav-aktiv" href="Kontakt.html">Kontakt</a></div>
+                    <div><a  href="impressum.html">Impressum</a></div>
+                    <div><a  href="datenschutz.html">Datenschutz</a></div>
+                </nav>
+                
+            </div>
+
+        </footer>
+    </div>
+    
+</body>
+</html>

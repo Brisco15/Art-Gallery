@@ -1,0 +1,86 @@
+input[type=text], select {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    
+}
+
+textarea{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    resize:both;
+
+}
+ input[type=email]{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+} 
+
+.container-form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+}
+
+.name-field span{
+    color: red;
+}
+
+.buttons{
+    display: flex;
+    padding-top: 2rem;
+    gap: 4rem;
+}
+
+.buttons .submit{
+    background-color: rgb(87, 165, 42);
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: transparent;
+    border-radius: 4px ;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+.buttons .submit:hover{
+    background-color:rgba(172, 255, 47, 0.479) ;
+    transition: 1.5s;
+
+}
+
+.buttons .reset{
+    background-color: rgb(216, 16, 26);
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: transparent;
+    border-radius: 4px ;
+    color: whitesmoke;
+    cursor: pointer;
+    
+    
+    
+}
+
+.buttons .reset:hover{
+    background-color: rgba(255, 0, 0, 0.658);
+    transition: 1.5s;
+}
