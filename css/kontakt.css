@@ -43,6 +43,11 @@ textarea{
 .name-field span{
     color: red;
 }
+.name-field .line1{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
 
 .buttons{
     display: flex;

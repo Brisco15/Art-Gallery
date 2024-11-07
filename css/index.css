@@ -5,6 +5,8 @@
     margin: auto;
 }
 
+  /* section 1 css */
+
 .events-container {
     display: flex;
     width: 100%;
@@ -47,7 +49,7 @@
 
 }
 
-
+ /* section 2 css */
 .bilder-container{
     display: flex;
     width: 100%;
@@ -103,8 +105,39 @@
     text-align: left;
 }
 
+ /* section 3 css */
 
-@media screen  and (max-width: 75rem) {
+.infos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+    justify-content: space-between;
+}
+
+.infos-container article{
+    color:orange;
+}
+
+.adresse{
+    width: 45%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+}
+
+.adresse-bild{
+    width: 45%;
+    align-content: center;
+}
+.adresse-bild img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+@media screen  and (max-width: 70rem) {
     .events-container{
         flex-direction: column;
     }
@@ -123,6 +156,7 @@
     }
 
     .bild-1{
+        display: flex;
     
         width:100%;
         height: min-content;
@@ -131,14 +165,15 @@
     .bild-1 figure img{
         width: 8rem;
         height: 10rem;
-        float: left;      
+              
     }
     .bild-1 figcaption{
         width: 22rem;
-        height: 10rem;
+        height: rem;
+        font-size: x-small;
         padding-bottom: 1rem;
-        padding-left: 1.5rem;
-        align-content:baseline;  
+        padding-left: 1rem;
+        align-content:end;  
 
         
     }
@@ -147,27 +182,42 @@
     .bild-4{
         width: 100%;
         display: block;
+        margin-bottom: 8rem;
     }
 
     .bild-4 .box{
         display: flex;
         flex-direction: row;
-        width:90% ; 
+        justify-content: space-between;
+        width:100% ; 
+        
     }
 
     .bild-4 .box figure  img{
-        width: 5rem;
-        height: 5rem;
+        width: 6rem;
+        height: 6rem;
         
     }
     
     .bild-4 .box figcaption{
         width: 100%;
-        height: 5rem;
-        padding-left: 2rem;
-        align-content:end;
+        /* align-items:end; */
         font-size:x-small;
+        align-content: space-evenly;
            
+    }
+
+    .infos-container{
+        width: 100%;
+        display: block;
+        background-color: black;
+    
+        
+    }
+
+    .adresse-bild img{
+        width: 20rem;
+        border-radius: 1rem;
     }
 
     
